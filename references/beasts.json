@@ -12,7 +12,7 @@
     }
   },
   "beasts": [
-    { "name": "九尾狐", "aliases": ["青丘狐"], "source": "山海经·南山经", "appearance": "状如狐而九尾，音如婴儿啼，身有赤黄纹", "symbolism": "祥瑞之兽，亦食人；后世视为狐仙始祖", "type": "瑞兽" },
+    { "name": "九尾狐", "aliases": ["青丘狐"], "source": "山海经·南山经", "appearance": "状如狐而九尾，音如婴儿啼，身有赤黄纹", "appearance_en": "a fox-like beast with nine lush tails and reddish-yellow stripes", "symbolism": "祥瑞之兽，亦食人；后世视为狐仙始祖", "type": "瑞兽" },
     { "name": "凤凰", "aliases": ["凤皇"], "source": "山海经·南三经", "appearance": "五色备举，鸡形，首文曰德，翼文曰顺，背文曰义", "symbolism": "神鸟，见则天下安宁", "type": "瑞禽" },
     { "name": "鸾鸟", "aliases": [], "source": "山海经·西次三经", "appearance": "状如翟而五采文", "symbolism": "瑞鸟，和鸣天下太平", "type": "瑞禽" },
     { "name": "烛龙", "aliases": ["烛阴"], "source": "山海经·大荒北经", "appearance": "人面蛇身而赤，身长千里，睁眼为昼闭眼为夜，吹为冬呼为夏", "symbolism": "钟山之神，掌时空昼夜", "type": "神兽" },

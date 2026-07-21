@@ -1,0 +1,10 @@
+{
+  "api": {
+    "base_url": "https://api.openai.com/v1",
+    "api_key": "sk-xxx",
+    "model": "gpt-image-1"
+  },
+  "default_beast": "九尾狐",
+  "default_name_en": "Nine-Tailed Fox",
+  "assets_dir": "assets"
+}
