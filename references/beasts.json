@@ -12,73 +12,1464 @@
     }
   },
   "beasts": [
-    { "name": "九尾狐", "aliases": ["青丘狐"], "source": "山海经·南山经", "appearance": "状如狐而九尾，音如婴儿啼，身有赤黄纹", "appearance_en": "a fox-like beast with nine lush tails and reddish-yellow stripes", "symbolism": "祥瑞之兽，亦食人；后世视为狐仙始祖", "type": "瑞兽" },
-    { "name": "凤凰", "aliases": ["凤皇"], "source": "山海经·南三经", "appearance": "五色备举，鸡形，首文曰德，翼文曰顺，背文曰义", "symbolism": "神鸟，见则天下安宁", "type": "瑞禽" },
-    { "name": "鸾鸟", "aliases": [], "source": "山海经·西次三经", "appearance": "状如翟而五采文", "symbolism": "瑞鸟，和鸣天下太平", "type": "瑞禽" },
-    { "name": "烛龙", "aliases": ["烛阴"], "source": "山海经·大荒北经", "appearance": "人面蛇身而赤，身长千里，睁眼为昼闭眼为夜，吹为冬呼为夏", "symbolism": "钟山之神，掌时空昼夜", "type": "神兽" },
-    { "name": "帝江", "aliases": ["混沌"], "source": "山海经·西次三经", "appearance": "状如黄囊，赤如丹火，六足四翼，浑敦无面目", "symbolism": "识歌舞，四凶之一（乐神/原初）", "type": "凶兽" },
-    { "name": "饕餮", "aliases": ["狍鸮"], "source": "山海经·北山经", "appearance": "羊身人面，目在腋下，虎齿人爪，音如婴儿", "symbolism": "四凶之一，贪食无厌", "type": "凶兽" },
-    { "name": "穷奇", "aliases": [], "source": "山海经·西次四经", "appearance": "状如牛，猬毛，音如獆狗；一说如虎有翼", "symbolism": "四凶之一，食人助恶", "type": "凶兽" },
-    { "name": "毕方", "aliases": [], "source": "山海经·西次三经", "appearance": "状如鹤，一足，赤文青质而白喙", "symbolism": "火怪，见则其邑有讹火", "type": "凶兽" },
-    { "name": "狰", "aliases": [], "source": "山海经·东次二经", "appearance": "状如赤豹，五尾一角，音如击石", "symbolism": "见则其邑大水（一说瑞）", "type": "神兽" },
-    { "name": "鹿蜀", "aliases": [], "source": "山海经·东次二经", "appearance": "状如马，白首，文题，虎尾", "symbolism": "佩其皮毛宜子孙", "type": "瑞兽" },
-    { "name": "猼訑", "aliases": ["猼𫍙"], "source": "山海经·东次二经", "appearance": "状如羊，九尾四耳，目在背", "symbolism": "佩之不畏", "type": "瑞兽" },
-    { "name": "鵸鵌", "aliases": [], "source": "山海经·西次三经", "appearance": "状如乌，三首六尾，善笑", "symbolism": "服之使人不厌（不梦魇）", "type": "瑞禽" },
-    { "name": "当康", "aliases": [], "source": "山海经·东次四经", "appearance": "状如豚而有牙，鸣自叫其名", "symbolism": "见则天下大穰（丰收瑞）", "type": "瑞兽" },
-    { "name": "朱厌", "aliases": [], "source": "山海经·西次二经", "appearance": "状如猿，白首赤足", "symbolism": "见则大兵（战乱兆）", "type": "凶兽" },
-    { "name": "天狗", "aliases": [], "source": "山海经·西次三经", "appearance": "状如狸而白首，音如猫", "symbolism": "御凶（非哮天犬）", "type": "瑞兽" },
-    { "name": "蛊雕", "aliases": [], "source": "山海经·南次二经", "appearance": "状如雕，独角，音如婴儿，食人", "symbolism": "凶兽", "type": "凶兽" },
-    { "name": "䑏疏", "aliases": ["讙疏"], "source": "山海经·北山经", "appearance": "状如马，一角", "symbolism": "辟火", "type": "瑞兽" },
-    { "name": "耳鼠", "aliases": [], "source": "山海经·北山经", "appearance": "状如鼠，兔首麋耳，以其尾飞", "symbolism": "服之不仆（不跌倒）", "type": "瑞兽" },
-    { "name": "孟极", "aliases": [], "source": "山海经·北山经", "appearance": "状如豹，文题白身，善伏", "symbolism": "服之善走", "type": "瑞兽" },
-    { "name": "长右", "aliases": [], "source": "山海经·南次二经", "appearance": "状如猿，四耳", "symbolism": "见则大水", "type": "凶兽" },
-    { "name": "羬羊", "aliases": [], "source": "山海经·西次四经", "appearance": "状如羊，马尾，角大", "symbolism": "辟毒", "type": "瑞兽" },
-    { "name": "乘黄", "aliases": [], "source": "山海经·西次三经", "appearance": "状如狐，背上有角", "symbolism": "乘之寿二千岁", "type": "瑞兽" },
-    { "name": "文鳐鱼", "aliases": [], "source": "山海经·西次三经", "appearance": "状如鲤鱼，鱼身而鸟翼，苍文", "symbolism": "见则天下大穰", "type": "瑞兽" },
-    { "name": "夫诸", "aliases": [], "source": "山海经·中次三经", "appearance": "状如白鹿，四角", "symbolism": "见则大水", "type": "凶兽" },
-    { "name": "灌灌", "aliases": [], "source": "山海经·南次一经", "appearance": "状如鸠，音如呵", "symbolism": "佩之不惑", "type": "瑞禽" },
-    { "name": "鴸", "aliases": [], "source": "山海经·南次二经", "appearance": "状如鸱，人手，音如痹", "symbolism": "见则其县多放士", "type": "凶禽" },
-    { "name": "獙獙", "aliases": [], "source": "山海经·东次二经", "appearance": "状如狐，有翼，音如鸿", "symbolism": "见则天下大旱", "type": "凶兽" },
-    { "name": "诸犍", "aliases": [], "source": "山海经·北山经", "appearance": "状如豹，长尾，人首", "symbolism": "善咤，行则衔尾", "type": "神兽" },
-    { "name": "颙", "aliases": [], "source": "山海经·南次三经", "appearance": "状如枭，人面四目，音如鸣", "symbolism": "见则大旱", "type": "凶禽" },
-    { "name": "应龙", "aliases": [], "source": "山海经·大荒东经", "appearance": "龙身而有翼，蓄水", "symbolism": "助黄帝杀蚩尤，掌降雨", "type": "神兽" },
-    { "name": "开明兽", "aliases": [], "source": "山海经·海内西经", "appearance": "身大类虎，九首人面", "symbolism": "守昆仑虚之门", "type": "神兽" },
-    { "name": "陆吾", "aliases": [], "source": "山海经·西次三经", "appearance": "状如虎，九尾，人面虎爪", "symbolism": "司天之九部及帝之圃", "type": "神兽" },
-    { "name": "英招", "aliases": [], "source": "山海经·西次三经", "appearance": "马身人面，虎文而鸟翼", "symbolism": "司帝之平圃", "type": "神兽" },
-    { "name": "九凤", "aliases": [], "source": "山海经·大荒北经", "appearance": "九首人面鸟身", "symbolism": "神禽", "type": "神禽" },
-    { "name": "比翼鸟", "aliases": ["蛮蛮"], "source": "山海经·西次三经", "appearance": "状如凫，一翼一目，需成对而飞", "symbolism": "夫妻同心、相思", "type": "瑞禽" },
-    { "name": "胜遇", "aliases": [], "source": "山海经·西次三经", "appearance": "状如翟，赤色，食鱼", "symbolism": "见则大水", "type": "凶禽" },
-    { "name": "狡", "aliases": [], "source": "山海经·西次三经", "appearance": "状如犬，豹文，牛角，音如吠犬", "symbolism": "见则天下大穰", "type": "瑞兽" },
-    { "name": "肥遗", "aliases": [], "source": "山海经·北山经", "appearance": "状如蛇，一首两身", "symbolism": "见则大国旱", "type": "凶兽" },
-    { "name": "蜚", "aliases": [], "source": "山海经·东次四经", "appearance": "状如牛，白首，一目，蛇尾", "symbolism": "见则天下大疫", "type": "凶兽" },
-    { "name": "驳", "aliases": [], "source": "山海经·中次四经", "appearance": "状如马，白身黑尾，一角，虎爪", "symbolism": "御兵（能食虎豹）", "type": "瑞兽" },
-    { "name": "西王母", "aliases": [], "source": "山海经·西次三经", "appearance": "状如人，豹尾虎齿，善啸，蓬发戴胜", "symbolism": "司天之厉及五残", "type": "神" },
-    { "name": "强良", "aliases": [], "source": "山海经·大荒北经", "appearance": "衔蛇操蛇，虎首人身", "symbolism": "神（助蚩尤）", "type": "神" },
-    { "name": "胐胐", "aliases": [], "source": "山海经·中次三经", "appearance": "状如狸，白尾", "symbolism": "养之已忧（解忧宠物）", "type": "瑞兽" },
-    { "name": "玃如", "aliases": [], "source": "山海经·中次四经", "appearance": "状如鹿，白尾，马足人手", "symbolism": "瑞兽", "type": "瑞兽" },
-    { "name": "蠃鱼", "aliases": [], "source": "山海经·西山经", "appearance": "鱼身鸟翼，音如鸳鸯", "symbolism": "见则其邑大水", "type": "凶兽" },
-    { "name": "鸣蛇", "aliases": [], "source": "山海经·中次二经", "appearance": "状如蛇，四翼，音如磬", "symbolism": "见则大旱", "type": "凶兽" },
-    { "name": "鲛人", "aliases": ["蛟人"], "source": "搜神记/临海异物志", "appearance": "人面鱼身，泣泪成珠", "symbolism": "异类，珠织为业", "type": "异兽" },
-    { "name": "化蛇", "aliases": [], "source": "搜神记", "appearance": "人面豺身，鸟翼蛇行，音如叱呼", "symbolism": "见则大水", "type": "凶兽" },
-    { "name": "讹兽", "aliases": [], "source": "神异经·西南荒", "appearance": "状如兔，人面，言妄语", "symbolism": "食之使人止言（说谎兽）", "type": "异兽" },
-    { "name": "白泽", "aliases": [], "source": "轩辕本纪/白泽图", "appearance": "狮身羊角，通万物之情，能言", "symbolism": "知天下鬼神，辟邪瑞兽", "type": "瑞兽" },
-    { "name": "鲲", "aliases": [], "source": "庄子·逍遥游", "appearance": "北冥巨鱼，不知其几千里也", "symbolism": "宏大、逍遥之始", "type": "神兽" },
-    { "name": "鹏", "aliases": ["大鹏"], "source": "庄子·逍遥游", "appearance": "巨鸟，其翼若垂天之云，抟扶摇而上九万里", "symbolism": "宏大、逍遥之化", "type": "神禽" },
-    { "name": "混沌", "aliases": ["中央之帝"], "source": "庄子·应帝王", "appearance": "无七窍，倏忽凿之而死", "symbolism": "原初未分之寓言神", "type": "神" },
-    { "name": "倏", "aliases": ["南海之帝"], "source": "庄子·应帝王", "appearance": "倏忽为混沌凿七窍者", "symbolism": "寓言神（迅疾）", "type": "神" },
-    { "name": "忽", "aliases": ["北海之帝"], "source": "庄子·应帝王", "appearance": "倏忽为混沌凿七窍者", "symbolism": "寓言神（匆忙）", "type": "神" },
-    { "name": "焦侥", "aliases": ["靖人"], "source": "列子·汤问", "appearance": "小人国，长三尺", "symbolism": "异类小国", "type": "异兽" },
-    { "name": "龙伯国", "aliases": [], "source": "列子·汤问", "appearance": "巨人国，一钓而连六鳌", "symbolism": "异类巨国", "type": "异兽" },
-    { "name": "青龙", "aliases": ["苍龙"], "source": "淮南子·天文训", "appearance": "四象之东方，龙形，木德", "symbolism": "主春、生机", "type": "神兽" },
-    { "name": "白虎", "aliases": [], "source": "淮南子·天文训", "appearance": "四象之西方，虎形，金德", "symbolism": "主秋、肃杀", "type": "神兽" },
-    { "name": "朱雀", "aliases": [], "source": "淮南子·天文训", "appearance": "四象之南方，凤鸟类，火德（非凤凰）", "symbolism": "主夏、炎上", "type": "神禽" },
-    { "name": "玄武", "aliases": [], "source": "淮南子·天文训", "appearance": "四象之北方，龟蛇合体，水德", "symbolism": "主冬、藏纳", "type": "神兽" },
-    { "name": "腾蛇", "aliases": [], "source": "淮南子·天文训", "appearance": "龙属，能兴云雾", "symbolism": "神蛇，主火", "type": "神兽" },
-    { "name": "飞廉", "aliases": ["蜚廉"], "source": "淮南子", "appearance": "风伯，鹿身雀首，通风云", "symbolism": "掌风之神", "type": "神" },
-    { "name": "火鼠", "aliases": ["火兽"], "source": "神异经/搜神记", "appearance": "火中鼠，毛可织火浣布", "symbolism": "异兽，不畏火", "type": "异兽" },
-    { "name": "祸斗", "aliases": [], "source": "搜神记", "appearance": "状如犬，食火，喷火", "symbolism": "异兽，所至皆火", "type": "异兽" },
-    { "name": "九婴", "aliases": [], "source": "搜神记", "appearance": "水火之怪，有九首", "symbolism": "凶兽，尧时射杀", "type": "凶兽" },
-    { "name": "猰貐", "aliases": ["窫窳"], "source": "搜神记", "appearance": "龙首，食人", "symbolism": "凶兽", "type": "凶兽" },
-    { "name": "梼杌", "aliases": [], "source": "神异经·西方荒", "appearance": "状如虎，犬毛，长二尺，人面虎足猪口牙", "symbolism": "四凶之一，顽凶", "type": "凶兽" }
+    {
+      "name": "九尾狐",
+      "aliases": [
+        "青丘狐"
+      ],
+      "source": "山海经·南山经",
+      "appearance": "状如狐而九尾，音如婴儿啼，身有赤黄纹",
+      "appearance_en": "a fox-like beast with nine lush tails and reddish-yellow stripes",
+      "symbolism": "祥瑞之兽，亦食人；后世视为狐仙始祖",
+      "type": "瑞兽",
+      "name_en": "Nine-Tailed Fox"
+    },
+    {
+      "name": "凤凰",
+      "aliases": [
+        "凤皇"
+      ],
+      "source": "山海经·南三经",
+      "appearance": "五色备举，鸡形，首文曰德，翼文曰顺，背文曰义",
+      "symbolism": "神鸟，见则天下安宁",
+      "type": "瑞禽",
+      "name_en": "Phoenix",
+      "appearance_en": "a phoenix-like bird with plumage in five colors, a chicken-like body, with patterns of virtue on its head, compliance on its wings, and righteousness on its back"
+    },
+    {
+      "name": "鸾鸟",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如翟而五采文",
+      "symbolism": "瑞鸟，和鸣天下太平",
+      "type": "瑞禽",
+      "name_en": "Luan Bird",
+      "appearance_en": "a bird like a long-tailed pheasant with five-colored plumage, gentle and radiant"
+    },
+    {
+      "name": "烛龙",
+      "aliases": [
+        "烛阴"
+      ],
+      "source": "山海经·大荒北经",
+      "appearance": "人面蛇身而赤，身长千里，睁眼为昼闭眼为夜，吹为冬呼为夏",
+      "symbolism": "钟山之神，掌时空昼夜",
+      "type": "神兽",
+      "name_en": "Zhulong",
+      "appearance_en": "a red, human-faced serpentine god thousands of miles long; opens eyes for day, closes for night, blows for winter, exhales for summer"
+    },
+    {
+      "name": "帝江",
+      "aliases": [
+        "混沌"
+      ],
+      "source": "山海经·西次三经",
+      "appearance": "状如黄囊，赤如丹火，六足四翼，浑敦无面目",
+      "symbolism": "识歌舞，四凶之一（乐神/原初）",
+      "type": "凶兽",
+      "name_en": "Dijiang",
+      "appearance_en": "a yellow sack-like being, red as cinnabar fire, with six legs and four wings, faceless and chaotic"
+    },
+    {
+      "name": "饕餮",
+      "aliases": [
+        "狍鸮"
+      ],
+      "source": "山海经·北山经",
+      "appearance": "羊身人面，目在腋下，虎齿人爪，音如婴儿",
+      "symbolism": "四凶之一，贪食无厌",
+      "type": "凶兽",
+      "name_en": "Taotie",
+      "appearance_en": "a beast with a sheep's body and a human face, eyes under the armpits, tiger teeth and human claws, crying like a baby"
+    },
+    {
+      "name": "穷奇",
+      "aliases": [],
+      "source": "山海经·西次四经",
+      "appearance": "状如牛，猬毛，音如獆狗；一说如虎有翼",
+      "symbolism": "四凶之一，食人助恶",
+      "type": "凶兽",
+      "name_en": "Qiongqi",
+      "appearance_en": "a beast like an ox with hedgehog-like bristles, howling like a hunting dog; alternatively a tiger with wings"
+    },
+    {
+      "name": "毕方",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如鹤，一足，赤文青质而白喙",
+      "symbolism": "火怪，见则其邑有讹火",
+      "type": "凶兽",
+      "name_en": "Bifang Bird",
+      "appearance_en": "a crane-like bird with one leg, red markings on a green body and a white beak"
+    },
+    {
+      "name": "狰",
+      "aliases": [],
+      "source": "山海经·东次二经",
+      "appearance": "状如赤豹，五尾一角，音如击石",
+      "symbolism": "见则其邑大水（一说瑞）",
+      "type": "神兽",
+      "name_en": "Zheng",
+      "appearance_en": "a beast like a reddish leopard, with five tails and one horn, cry like striking stone"
+    },
+    {
+      "name": "鹿蜀",
+      "aliases": [],
+      "source": "山海经·东次二经",
+      "appearance": "状如马，白首，文题，虎尾",
+      "symbolism": "佩其皮毛宜子孙",
+      "type": "瑞兽",
+      "name_en": "Lushu",
+      "appearance_en": "a horse-like beast with a white head, patterned forehead, and a tiger's tail"
+    },
+    {
+      "name": "猼訑",
+      "aliases": [
+        "猼𫍙"
+      ],
+      "source": "山海经·东次二经",
+      "appearance": "状如羊，九尾四耳，目在背",
+      "symbolism": "佩之不畏",
+      "type": "瑞兽",
+      "name_en": "Boyi",
+      "appearance_en": "a sheep-like beast with nine tails, four ears, and eyes on its back"
+    },
+    {
+      "name": "鵸鵌",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如乌，三首六尾，善笑",
+      "symbolism": "服之使人不厌（不梦魇）",
+      "type": "瑞禽",
+      "name_en": "Qitu Bird",
+      "appearance_en": "a crow-like bird with three heads and six tails, given to laughing"
+    },
+    {
+      "name": "当康",
+      "aliases": [],
+      "source": "山海经·东次四经",
+      "appearance": "状如豚而有牙，鸣自叫其名",
+      "symbolism": "见则天下大穰（丰收瑞）",
+      "type": "瑞兽",
+      "name_en": "Dangkang",
+      "appearance_en": "a pig-like beast with tusks, calling out its own name"
+    },
+    {
+      "name": "朱厌",
+      "aliases": [],
+      "source": "山海经·西次二经",
+      "appearance": "状如猿，白首赤足",
+      "symbolism": "见则大兵（战乱兆）",
+      "type": "凶兽",
+      "name_en": "Zhuyan",
+      "appearance_en": "an ape-like beast with a white head and red feet"
+    },
+    {
+      "name": "天狗",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如狸而白首，音如猫",
+      "symbolism": "御凶（非哮天犬）",
+      "type": "瑞兽",
+      "name_en": "Tiangu",
+      "appearance_en": "a raccoon-dog-like beast with a white head, mewing like a cat"
+    },
+    {
+      "name": "蛊雕",
+      "aliases": [],
+      "source": "山海经·南次二经",
+      "appearance": "状如雕，独角，音如婴儿，食人",
+      "symbolism": "凶兽",
+      "type": "凶兽",
+      "name_en": "Gudiao",
+      "appearance_en": "a hawk-like bird with one horn, crying like a baby, man-eating"
+    },
+    {
+      "name": "䑏疏",
+      "aliases": [
+        "讙疏"
+      ],
+      "source": "山海经·北山经",
+      "appearance": "状如马，一角",
+      "symbolism": "辟火",
+      "type": "瑞兽",
+      "name_en": "Huanshu",
+      "appearance_en": "a horse-like beast with one horn"
+    },
+    {
+      "name": "耳鼠",
+      "aliases": [],
+      "source": "山海经·北山经",
+      "appearance": "状如鼠，兔首麋耳，以其尾飞",
+      "symbolism": "服之不仆（不跌倒）",
+      "type": "瑞兽",
+      "name_en": "Ershu",
+      "appearance_en": "a mouse-like beast with a rabbit's head and deer's ears, gliding with its tail"
+    },
+    {
+      "name": "孟极",
+      "aliases": [],
+      "source": "山海经·北山经",
+      "appearance": "状如豹，文题白身，善伏",
+      "symbolism": "服之善走",
+      "type": "瑞兽",
+      "name_en": "Mengji",
+      "appearance_en": "a leopard-like beast with a patterned white body, good at lurking"
+    },
+    {
+      "name": "长右",
+      "aliases": [],
+      "source": "山海经·南次二经",
+      "appearance": "状如猿，四耳",
+      "symbolism": "见则大水",
+      "type": "凶兽",
+      "name_en": "Changyou",
+      "appearance_en": "an ape-like beast with four ears"
+    },
+    {
+      "name": "羬羊",
+      "aliases": [],
+      "source": "山海经·西次四经",
+      "appearance": "状如羊，马尾，角大",
+      "symbolism": "辟毒",
+      "type": "瑞兽",
+      "name_en": "Qianyang",
+      "appearance_en": "a sheep-like beast with a horse's tail and large horns"
+    },
+    {
+      "name": "乘黄",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如狐，背上有角",
+      "symbolism": "乘之寿二千岁",
+      "type": "瑞兽",
+      "name_en": "Chenghuang",
+      "appearance_en": "a fox-like beast with a horn on its back"
+    },
+    {
+      "name": "文鳐鱼",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如鲤鱼，鱼身而鸟翼，苍文",
+      "symbolism": "见则天下大穰",
+      "type": "瑞兽",
+      "name_en": "Wenyao Fish",
+      "appearance_en": "a fish like a carp, with a fish body and bird wings, dark-patterned"
+    },
+    {
+      "name": "夫诸",
+      "aliases": [],
+      "source": "山海经·中次三经",
+      "appearance": "状如白鹿，四角",
+      "symbolism": "见则大水",
+      "type": "凶兽",
+      "name_en": "Fuzhu",
+      "appearance_en": "a white deer-like beast with four horns"
+    },
+    {
+      "name": "灌灌",
+      "aliases": [],
+      "source": "山海经·南次一经",
+      "appearance": "状如鸠，音如呵",
+      "symbolism": "佩之不惑",
+      "type": "瑞禽",
+      "name_en": "Guanguan",
+      "appearance_en": "a dove-like bird, cry like scolding"
+    },
+    {
+      "name": "鴸",
+      "aliases": [],
+      "source": "山海经·南次二经",
+      "appearance": "状如鸱，人手，音如痹",
+      "symbolism": "见则其县多放士",
+      "type": "凶禽",
+      "name_en": "Zhu Bird",
+      "appearance_en": "an owl-like bird with human hands, cry like a palsy"
+    },
+    {
+      "name": "獙獙",
+      "aliases": [],
+      "source": "山海经·东次二经",
+      "appearance": "状如狐，有翼，音如鸿",
+      "symbolism": "见则天下大旱",
+      "type": "凶兽",
+      "name_en": "Bibi",
+      "appearance_en": "a fox-like beast with wings, cry like a wild goose"
+    },
+    {
+      "name": "诸犍",
+      "aliases": [],
+      "source": "山海经·北山经",
+      "appearance": "状如豹，长尾，人首",
+      "symbolism": "善咤，行则衔尾",
+      "type": "神兽",
+      "name_en": "Zhujian",
+      "appearance_en": "a leopard-like beast with a long tail and a human head"
+    },
+    {
+      "name": "颙",
+      "aliases": [],
+      "source": "山海经·南次三经",
+      "appearance": "状如枭，人面四目，音如鸣",
+      "symbolism": "见则大旱",
+      "type": "凶禽",
+      "name_en": "Yong",
+      "appearance_en": "an owl-like bird with a human face and four eyes, cry like a bell"
+    },
+    {
+      "name": "应龙",
+      "aliases": [],
+      "source": "山海经·大荒东经",
+      "appearance": "龙身而有翼，蓄水",
+      "symbolism": "助黄帝杀蚩尤，掌降雨",
+      "type": "神兽",
+      "name_en": "Yinglong",
+      "appearance_en": "a dragon with a serpentine body and wings, controlling water"
+    },
+    {
+      "name": "开明兽",
+      "aliases": [],
+      "source": "山海经·海内西经",
+      "appearance": "身大类虎，九首人面",
+      "symbolism": "守昆仑虚之门",
+      "type": "神兽",
+      "name_en": "Kaiming Beast",
+      "appearance_en": "a beast with a body larger than a tiger, with nine human heads"
+    },
+    {
+      "name": "陆吾",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如虎，九尾，人面虎爪",
+      "symbolism": "司天之九部及帝之圃",
+      "type": "神兽",
+      "name_en": "Luwu",
+      "appearance_en": "a tiger-like beast with nine tails and a human face with tiger claws"
+    },
+    {
+      "name": "英招",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "马身人面，虎文而鸟翼",
+      "symbolism": "司帝之平圃",
+      "type": "神兽",
+      "name_en": "Yingzhao",
+      "appearance_en": "a beast with a horse's body and human face, tiger stripes and bird wings"
+    },
+    {
+      "name": "九凤",
+      "aliases": [],
+      "source": "山海经·大荒北经",
+      "appearance": "九首人面鸟身",
+      "symbolism": "神禽",
+      "type": "神禽",
+      "name_en": "Jiufeng",
+      "appearance_en": "a bird with nine human heads and a bird body"
+    },
+    {
+      "name": "比翼鸟",
+      "aliases": [
+        "蛮蛮"
+      ],
+      "source": "山海经·西次三经",
+      "appearance": "状如凫，一翼一目，需成对而飞",
+      "symbolism": "夫妻同心、相思",
+      "type": "瑞禽",
+      "name_en": "Biyi Bird",
+      "appearance_en": "a duck-like bird with one wing and one eye, flying only in pairs"
+    },
+    {
+      "name": "胜遇",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如翟，赤色，食鱼",
+      "symbolism": "见则大水",
+      "type": "凶禽",
+      "name_en": "Shengyu",
+      "appearance_en": "a pheasant-like red bird that eats fish"
+    },
+    {
+      "name": "狡",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如犬，豹文，牛角，音如吠犬",
+      "symbolism": "见则天下大穰",
+      "type": "瑞兽",
+      "name_en": "Jiao",
+      "appearance_en": "a dog-like beast with leopard spots and ox horns, barking like a dog"
+    },
+    {
+      "name": "肥遗",
+      "aliases": [],
+      "source": "山海经·北山经",
+      "appearance": "状如蛇，一首两身",
+      "symbolism": "见则大国旱",
+      "type": "凶兽",
+      "name_en": "Feiyi",
+      "appearance_en": "a snake-like creature with one head and two bodies"
+    },
+    {
+      "name": "蜚",
+      "aliases": [],
+      "source": "山海经·东次四经",
+      "appearance": "状如牛，白首，一目，蛇尾",
+      "symbolism": "见则天下大疫",
+      "type": "凶兽",
+      "name_en": "Fei",
+      "appearance_en": "a bull-like beast with a white head, one eye, and a snake's tail"
+    },
+    {
+      "name": "驳",
+      "aliases": [],
+      "source": "山海经·中次四经",
+      "appearance": "状如马，白身黑尾，一角，虎爪",
+      "symbolism": "御兵（能食虎豹）",
+      "type": "瑞兽",
+      "name_en": "Bo Horse",
+      "appearance_en": "a horse-like beast with a white body, black tail, one horn, and tiger claws"
+    },
+    {
+      "name": "西王母",
+      "aliases": [],
+      "source": "山海经·西次三经",
+      "appearance": "状如人，豹尾虎齿，善啸，蓬发戴胜",
+      "symbolism": "司天之厉及五残",
+      "type": "神",
+      "name_en": "Queen Mother of the West",
+      "appearance_en": "a human-like goddess with a leopard's tail, tiger's teeth, disheveled hair and a headdress, given to howling"
+    },
+    {
+      "name": "强良",
+      "aliases": [],
+      "source": "山海经·大荒北经",
+      "appearance": "衔蛇操蛇，虎首人身",
+      "symbolism": "神（助蚩尤）",
+      "type": "神",
+      "name_en": "Qiangliang",
+      "appearance_en": "a being with a tiger's head and human body, biting and holding snakes"
+    },
+    {
+      "name": "胐胐",
+      "aliases": [],
+      "source": "山海经·中次三经",
+      "appearance": "状如狸，白尾",
+      "symbolism": "养之已忧（解忧宠物）",
+      "type": "瑞兽",
+      "name_en": "Feifei",
+      "appearance_en": "a raccoon-dog-like beast with a white tail"
+    },
+    {
+      "name": "玃如",
+      "aliases": [],
+      "source": "山海经·中次四经",
+      "appearance": "状如鹿，白尾，马足人手",
+      "symbolism": "瑞兽",
+      "type": "瑞兽",
+      "name_en": "Jueru",
+      "appearance_en": "a deer-like beast with a white tail, horse hooves and human hands"
+    },
+    {
+      "name": "蠃鱼",
+      "aliases": [],
+      "source": "山海经·西山经",
+      "appearance": "鱼身鸟翼，音如鸳鸯",
+      "symbolism": "见则其邑大水",
+      "type": "凶兽",
+      "name_en": "Luoyu",
+      "appearance_en": "a fish with a bird's wings, cry like a mandarin duck"
+    },
+    {
+      "name": "鸣蛇",
+      "aliases": [],
+      "source": "山海经·中次二经",
+      "appearance": "状如蛇，四翼，音如磬",
+      "symbolism": "见则大旱",
+      "type": "凶兽",
+      "name_en": "Mingshe",
+      "appearance_en": "a snake-like creature with four wings, cry like a chime"
+    },
+    {
+      "name": "鲛人",
+      "aliases": [
+        "蛟人"
+      ],
+      "source": "搜神记/临海异物志",
+      "appearance": "人面鱼身，泣泪成珠",
+      "symbolism": "异类，珠织为业",
+      "type": "异兽",
+      "name_en": "Jiaoren",
+      "appearance_en": "a merman with a human face and fish body, whose tears become pearls"
+    },
+    {
+      "name": "化蛇",
+      "aliases": [],
+      "source": "搜神记",
+      "appearance": "人面豺身，鸟翼蛇行，音如叱呼",
+      "symbolism": "见则大水",
+      "type": "凶兽",
+      "name_en": "Huashe",
+      "appearance_en": "a being with a human face and jackal body, bird wings and snake movement, cry like shouting"
+    },
+    {
+      "name": "讹兽",
+      "aliases": [],
+      "source": "神异经·西南荒",
+      "appearance": "状如兔，人面，言妄语",
+      "symbolism": "食之使人止言（说谎兽）",
+      "type": "异兽",
+      "name_en": "Eshou",
+      "appearance_en": "a rabbit-like beast with a human face, speaking lies"
+    },
+    {
+      "name": "白泽",
+      "aliases": [],
+      "source": "轩辕本纪/白泽图",
+      "appearance": "狮身羊角，通万物之情，能言",
+      "symbolism": "知天下鬼神，辟邪瑞兽",
+      "type": "瑞兽",
+      "name_en": "Baize",
+      "appearance_en": "a lion-bodied beast with ram's horns, knowing all things, able to speak"
+    },
+    {
+      "name": "鲲",
+      "aliases": [],
+      "source": "庄子·逍遥游",
+      "appearance": "北冥巨鱼，不知其几千里也",
+      "symbolism": "宏大、逍遥之始",
+      "type": "神兽",
+      "name_en": "Kun",
+      "appearance_en": "a gigantic fish in the northern ocean, thousands of miles long"
+    },
+    {
+      "name": "鹏",
+      "aliases": [
+        "大鹏"
+      ],
+      "source": "庄子·逍遥游",
+      "appearance": "巨鸟，其翼若垂天之云，抟扶摇而上九万里",
+      "symbolism": "宏大、逍遥之化",
+      "type": "神禽",
+      "name_en": "Peng",
+      "appearance_en": "a gigantic bird whose wings are like clouds hanging from the sky, soaring ninety thousand miles"
+    },
+    {
+      "name": "混沌",
+      "aliases": [
+        "中央之帝"
+      ],
+      "source": "庄子·应帝王",
+      "appearance": "无七窍，倏忽凿之而死",
+      "symbolism": "原初未分之寓言神",
+      "type": "神",
+      "name_en": "Hundun",
+      "appearance_en": "a formless being with no seven orifices (eyes, ears, mouth, nostrils)"
+    },
+    {
+      "name": "倏",
+      "aliases": [
+        "南海之帝"
+      ],
+      "source": "庄子·应帝王",
+      "appearance": "倏忽为混沌凿七窍者",
+      "symbolism": "寓言神（迅疾）",
+      "type": "神",
+      "name_en": "Shu",
+      "appearance_en": "a diminutive emperor-personification of suddenness, who helped bore holes into Hundun"
+    },
+    {
+      "name": "忽",
+      "aliases": [
+        "北海之帝"
+      ],
+      "source": "庄子·应帝王",
+      "appearance": "倏忽为混沌凿七窍者",
+      "symbolism": "寓言神（匆忙）",
+      "type": "神",
+      "name_en": "Hu",
+      "appearance_en": "a diminutive emperor-personification of abruptness, who helped bore holes into Hundun"
+    },
+    {
+      "name": "焦侥",
+      "aliases": [
+        "靖人"
+      ],
+      "source": "列子·汤问",
+      "appearance": "小人国，长三尺",
+      "symbolism": "异类小国",
+      "type": "异兽",
+      "name_en": "Jiaoyao",
+      "appearance_en": "a tiny person of the small-country, only three feet tall"
+    },
+    {
+      "name": "龙伯国",
+      "aliases": [],
+      "source": "列子·汤问",
+      "appearance": "巨人国，一钓而连六鳌",
+      "symbolism": "异类巨国",
+      "type": "异兽",
+      "name_en": "Longbo",
+      "appearance_en": "a giant person of the giant-country, who hooks six giant turtles with one line"
+    },
+    {
+      "name": "青龙",
+      "aliases": [
+        "苍龙"
+      ],
+      "source": "淮南子·天文训",
+      "appearance": "四象之东方，龙形，木德",
+      "symbolism": "主春、生机",
+      "type": "神兽",
+      "name_en": "Azure Dragon",
+      "appearance_en": "the Azure Dragon, eastern of the Four Symbols, a dragon form with wood virtue"
+    },
+    {
+      "name": "白虎",
+      "aliases": [],
+      "source": "淮南子·天文训",
+      "appearance": "四象之西方，虎形，金德",
+      "symbolism": "主秋、肃杀",
+      "type": "神兽",
+      "name_en": "White Tiger",
+      "appearance_en": "the White Tiger, western of the Four Symbols, a tiger form with metal virtue"
+    },
+    {
+      "name": "朱雀",
+      "aliases": [],
+      "source": "淮南子·天文训",
+      "appearance": "四象之南方，凤鸟类，火德（非凤凰）",
+      "symbolism": "主夏、炎上",
+      "type": "神禽",
+      "name_en": "Vermilion Bird",
+      "appearance_en": "the Vermilion Bird, southern of the Four Symbols, a phoenix-like bird with fire virtue"
+    },
+    {
+      "name": "玄武",
+      "aliases": [],
+      "source": "淮南子·天文训",
+      "appearance": "四象之北方，龟蛇合体，水德",
+      "symbolism": "主冬、藏纳",
+      "type": "神兽",
+      "name_en": "Black Tortoise",
+      "appearance_en": "the Black Tortoise, northern of the Four Symbols, a turtle-snake composite with water virtue"
+    },
+    {
+      "name": "腾蛇",
+      "aliases": [],
+      "source": "淮南子·天文训",
+      "appearance": "龙属，能兴云雾",
+      "symbolism": "神蛇，主火",
+      "type": "神兽",
+      "name_en": "Tengshe",
+      "appearance_en": "a dragon-kind winged serpent able to raise clouds and mist"
+    },
+    {
+      "name": "飞廉",
+      "aliases": [
+        "蜚廉"
+      ],
+      "source": "淮南子",
+      "appearance": "风伯，鹿身雀首，通风云",
+      "symbolism": "掌风之神",
+      "type": "神",
+      "name_en": "Feilian",
+      "appearance_en": "the wind god, with a deer's body and a bird's head, channeling wind and clouds"
+    },
+    {
+      "name": "火鼠",
+      "aliases": [
+        "火兽"
+      ],
+      "source": "神异经/搜神记",
+      "appearance": "火中鼠，毛可织火浣布",
+      "symbolism": "异兽，不畏火",
+      "type": "异兽",
+      "name_en": "Fire Rat",
+      "appearance_en": "a rat living in fire, whose fur can be woven into fire-proof cloth"
+    },
+    {
+      "name": "祸斗",
+      "aliases": [],
+      "source": "搜神记",
+      "appearance": "状如犬，食火，喷火",
+      "symbolism": "异兽，所至皆火",
+      "type": "异兽",
+      "name_en": "Huodou",
+      "appearance_en": "a dog-like beast that eats and spits fire"
+    },
+    {
+      "name": "九婴",
+      "aliases": [],
+      "source": "搜神记",
+      "appearance": "水火之怪，有九首",
+      "symbolism": "凶兽，尧时射杀",
+      "type": "凶兽",
+      "name_en": "Jiuying",
+      "appearance_en": "a water-and-fire monster with nine heads"
+    },
+    {
+      "name": "猰貐",
+      "aliases": [
+        "窫窳"
+      ],
+      "source": "搜神记",
+      "appearance": "龙首，食人",
+      "symbolism": "凶兽",
+      "type": "凶兽",
+      "name_en": "Yayu",
+      "appearance_en": "a beast with a dragon's head, man-eating"
+    },
+    {
+      "name": "梼杌",
+      "aliases": [],
+      "source": "神异经·西方荒",
+      "appearance": "状如虎，犬毛，长二尺，人面虎足猪口牙",
+      "symbolism": "四凶之一，顽凶",
+      "type": "凶兽",
+      "name_en": "Taowu",
+      "appearance_en": "a tiger-like beast with dog fur, two feet long, a human face, tiger feet, and pig-like mouth and teeth"
+    },
+    {
+      "name": "麒麟",
+      "aliases": [
+        "麒",
+        "麟"
+      ],
+      "source": "诗经/礼记·礼运",
+      "appearance": "麋身牛尾，马蹄，一角，黄色，仁兽",
+      "appearance_en": "a chimeric qilin: a gentle deer-like body with an ox's tail, horse's hooves, and a single fleshy horn on its forehead; golden or multicolored fur, serene and dignified",
+      "symbolism": "仁兽，王者将至则现，象征祥瑞",
+      "type": "瑞兽",
+      "name_en": "Qilin"
+    },
+    {
+      "name": "貔貅",
+      "aliases": [
+        "皮休"
+      ],
+      "source": "史记/中国民间",
+      "appearance": "状如虎豹，首尾似龙，有翼，无肛，纳食不泄",
+      "appearance_en": "a winged dragon-lion beast with a fierce tiger-leopard body, a dragon-like head, feathered wings, and no anus (symbolizing wealth retention); sharp fangs",
+      "symbolism": "招财纳福、镇宅辟邪",
+      "type": "瑞兽",
+      "name_en": "Pixiu"
+    },
+    {
+      "name": "獬豸",
+      "aliases": [
+        "解豸"
+      ],
+      "source": "神异经/淮南子",
+      "appearance": "状如羊或鹿，独角，性忠直",
+      "appearance_en": "a unicorn-like ram or deer with a single straight horn on its forehead; upright, solemn, righteous bearing",
+      "symbolism": "法兽，能辨曲直、触不直者",
+      "type": "瑞兽",
+      "name_en": "Xiezhi"
+    },
+    {
+      "name": "甪端",
+      "aliases": [],
+      "source": "中国民间",
+      "appearance": "状如狮，独角，绿毛，通四夷语",
+      "appearance_en": "a lion-like auspicious beast with a twisted single horn, green fur and a curly mane; wise, intelligent expression",
+      "symbolism": "瑞兽，日行万里，通晓四方语言",
+      "type": "瑞兽",
+      "name_en": "Luduan"
+    },
+    {
+      "name": "天禄",
+      "aliases": [],
+      "source": "中国民间/汉代墓葬",
+      "appearance": "状如兽，有翼，双角，似辟邪",
+      "appearance_en": "a winged chimera with two horns, akin to Bixie; a lion-dragon body, fierce yet auspicious",
+      "symbolism": "瑞兽，与辟邪并立，镇墓招福",
+      "type": "瑞兽",
+      "name_en": "Tianlu"
+    },
+    {
+      "name": "辟邪",
+      "aliases": [],
+      "source": "中国民间/汉代",
+      "appearance": "状如狮，有翼，独角或无角，张口",
+      "appearance_en": "a winged lion-like beast with one horn (or hornless), an open mouth and feathered wings; protective and fierce",
+      "symbolism": "辟邪驱恶，镇守陵墓",
+      "type": "瑞兽",
+      "name_en": "Bixie"
+    },
+    {
+      "name": "驺虞",
+      "aliases": [],
+      "source": "山海经·海外西经/诗经",
+      "appearance": "状如白虎，五采毕具，尾长于身，不履生草",
+      "appearance_en": "a white tiger with black stripes and a tail longer than its body; gentle, treading on no living grass",
+      "symbolism": "义兽，仁心不杀",
+      "type": "瑞兽",
+      "name_en": "Zouyu"
+    },
+    {
+      "name": "龙",
+      "aliases": [
+        "神龙"
+      ],
+      "source": "山海经/淮南子",
+      "appearance": "蛇身鹿角，狮鬃鱼鳞，鹰爪，能幽能明，能细能巨",
+      "appearance_en": "a serpentine Chinese dragon with a deer's antlers, a lion's mane, fish scales, eagle claws and long whiskers; coiling, luminous body",
+      "symbolism": "神兽之首，司云雨，华夏图腾",
+      "type": "神兽",
+      "name_en": "Chinese Dragon"
+    },
+    {
+      "name": "三足乌",
+      "aliases": [
+        "金乌",
+        "金乌鸦"
+      ],
+      "source": "山海经·大荒东经/淮南子",
+      "appearance": "日中神鸟，三足，色赤或金，载日",
+      "appearance_en": "a three-legged crow (golden or black-red) radiating sunlight; perched within the sun",
+      "symbolism": "太阳之精，十日传说",
+      "type": "神禽",
+      "name_en": "Three-legged Crow"
+    },
+    {
+      "name": "重明鸟",
+      "aliases": [
+        "重睛鸟"
+      ],
+      "source": "神异经/拾遗记",
+      "appearance": "状如鸡，鸣如凤，一目两瞳，能搏猛兽妖邪",
+      "appearance_en": "a large bird like a pheasant with two pupils in each eye, multicolored plumage and a hooked beak; fierce",
+      "symbolism": "驱妖辟邪，见则国安",
+      "type": "瑞禽",
+      "name_en": "Chongming Bird"
+    },
+    {
+      "name": "精卫",
+      "aliases": [
+        "帝女雀"
+      ],
+      "source": "山海经·北山经",
+      "appearance": "状如乌，赤足赤喙，文首，衔石填海",
+      "appearance_en": "a small variegated bird (crow-like) with a red beak and red claws, tirelessly carrying twigs and pebbles",
+      "symbolism": "炎帝少女所化，填海不屈",
+      "type": "神禽",
+      "name_en": "Jingwei"
+    },
+    {
+      "name": "青鸟",
+      "aliases": [],
+      "source": "山海经·西山经/司马相如",
+      "appearance": "青色神鸟，赤首黑目，西王母使者",
+      "appearance_en": "a slender cyan-blue celestial bird with a red head and black eyes; elegant long tail",
+      "symbolism": "西王母信使，传递音讯",
+      "type": "瑞禽",
+      "name_en": "Blue Bird"
+    },
+    {
+      "name": "商羊",
+      "aliases": [],
+      "source": "山海经/说苑",
+      "appearance": "一足鸟，身有纹，知雨而舞",
+      "appearance_en": "a one-legged bird, slender, with patterned plumage, standing on a single leg",
+      "symbolism": "雨兆之鸟，见则大雨",
+      "type": "凶禽",
+      "name_en": "Shangyang"
+    },
+    {
+      "name": "玉兔",
+      "aliases": [
+        "月兔"
+      ],
+      "source": "中国民间/淮南子",
+      "appearance": "月中白兔，捣药于臼",
+      "appearance_en": "a white jade rabbit sitting and pounding medicine with a mortar and pestle under moonlight",
+      "symbolism": "月宫灵兔，长生不老",
+      "type": "瑞兽",
+      "name_en": "Jade Rabbit"
+    },
+    {
+      "name": "三足金蟾",
+      "aliases": [
+        "金蟾",
+        "刘海蟾"
+      ],
+      "source": "中国民间",
+      "appearance": "三足金蟾，状如蛙，口衔铜钱",
+      "appearance_en": "a three-legged golden toad, squat and round, often holding a coin in its mouth",
+      "symbolism": "招财进宝，刘海戏金蟾",
+      "type": "瑞兽",
+      "name_en": "Three-legged Toad"
+    },
+    {
+      "name": "巴蛇",
+      "aliases": [],
+      "source": "山海经·海内南经",
+      "appearance": "巨蛇，身长百寻，食象，三岁而出骨",
+      "appearance_en": "an enormous serpent as thick as a tree trunk, long enough to swallow an elephant whole",
+      "symbolism": "凶兽，吞噬之象",
+      "type": "凶兽",
+      "name_en": "Bashe"
+    },
+    {
+      "name": "相柳",
+      "aliases": [
+        "相繇"
+      ],
+      "source": "山海经·海外北经",
+      "appearance": "九首蛇身，人面，所过为泽溪，毒",
+      "appearance_en": "a nine-headed serpentine water monster with a human-like face on each head, oozing virulent poison",
+      "symbolism": "共工之臣，洪水之恶",
+      "type": "凶兽",
+      "name_en": "Xiangliu"
+    },
+    {
+      "name": "囚牛",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙长子，好音乐，形如龙而温，饰于琴头",
+      "appearance_en": "the eldest dragon son, fond of music; a gentle dragon-faced creature carved on stringed instruments",
+      "symbolism": "好音律",
+      "type": "异兽",
+      "name_en": "Qiuniu"
+    },
+    {
+      "name": "睚眦",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙次子，好斗，龙首怒目，饰于刀剑吞口",
+      "appearance_en": "the second dragon son, fond of fighting; dragon-headed with a fierce glare, carved on sword hilts",
+      "symbolism": "报恩必报，勇武",
+      "type": "异兽",
+      "name_en": "Yazi"
+    },
+    {
+      "name": "嘲风",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙三子，好险，形似龙猫，踞于殿角",
+      "appearance_en": "the third dragon son, fond of danger; dragon-cat-like, perched on roof-ridge corners",
+      "symbolism": "好高望险",
+      "type": "异兽",
+      "name_en": "Chaofeng"
+    },
+    {
+      "name": "蒲牢",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙四子，好鸣，状如龙而小，饰于钟钮",
+      "appearance_en": "the fourth dragon son, fond of roaring; a small dragon-shaped being on bell handles",
+      "symbolism": "好鸣吼",
+      "type": "异兽",
+      "name_en": "Pulao"
+    },
+    {
+      "name": "狻猊",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙五子，好坐好烟，状如狮，踞于香炉",
+      "appearance_en": "the fifth dragon son, fond of sitting and smoke; lion-like, seated on incense burners",
+      "symbolism": "好静好烟",
+      "type": "异兽",
+      "name_en": "Suanni"
+    },
+    {
+      "name": "霸下",
+      "aliases": [
+        "赑屃"
+      ],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙六子，好负重，龟形龙首，驮石碑",
+      "appearance_en": "the sixth dragon son, fond of carrying weight; a turtle-like body with a dragon head, bearing stone steles",
+      "symbolism": "力大负重",
+      "type": "异兽",
+      "name_en": "Baxia"
+    },
+    {
+      "name": "狴犴",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙七子，好讼，形似虎，立于狱门",
+      "appearance_en": "the seventh dragon son, fond of justice; tiger-like dragon, on prison gates",
+      "symbolism": "明辨是非",
+      "type": "异兽",
+      "name_en": "Bi'an"
+    },
+    {
+      "name": "负屃",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙八子，好文，盘绕于碑文之上",
+      "appearance_en": "the eighth dragon son, fond of literature; a dragon coiled around stele inscriptions",
+      "symbolism": "雅好斯文",
+      "type": "异兽",
+      "name_en": "Fuxi"
+    },
+    {
+      "name": "螭吻",
+      "aliases": [
+        "鸱吻"
+      ],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙九子，好吞火，龙首鱼身，踞殿脊",
+      "appearance_en": "the ninth dragon son, fond of swallowing fire; dragon-headed fish-like, on roof ridges facing inward",
+      "symbolism": "镇火防灾",
+      "type": "异兽",
+      "name_en": "Chiwen"
+    },
+    {
+      "name": "椒图",
+      "aliases": [],
+      "source": "中国民间·龙生九子（升庵集）",
+      "appearance": "龙子，好闭，形似螺，衔环于门",
+      "appearance_en": "a dragon son fond of closing; snail- or dragon-shaped, on door knockers and rings",
+      "symbolism": "守御闭藏",
+      "type": "异兽",
+      "name_en": "Jiaotu"
+    },
+    {
+      "name": "句芒",
+      "aliases": [
+        "勾芒"
+      ],
+      "source": "山海经/淮南子",
+      "appearance": "东方木神，鸟身人面，乘两龙",
+      "appearance_en": "the eastern wood deity: a bird-bodied, human-faced green god riding two dragons",
+      "symbolism": "主春生、草木",
+      "type": "神",
+      "name_en": "Jumang"
+    },
+    {
+      "name": "蓐收",
+      "aliases": [],
+      "source": "山海经/淮南子",
+      "appearance": "西方金神，人面虎爪，白毛，执钺",
+      "appearance_en": "the western metal deity: a white, human-faced being with tiger claws, holding an axe",
+      "symbolism": "主秋、刑罚",
+      "type": "神",
+      "name_en": "Rushou"
+    },
+    {
+      "name": "祝融",
+      "aliases": [],
+      "source": "山海经/淮南子",
+      "appearance": "南方火神，兽身人面，乘两龙",
+      "appearance_en": "the southern fire deity: a red, beast-bodied human-faced god riding dragons, wreathed in flame",
+      "symbolism": "主夏、火",
+      "type": "神",
+      "name_en": "Zhurong"
+    },
+    {
+      "name": "玄冥",
+      "aliases": [
+        "禺强",
+        "禺疆"
+      ],
+      "source": "山海经/淮南子",
+      "appearance": "北方水神，人面鸟身或鱼身，乘两龙",
+      "appearance_en": "the northern water deity: a black, human-faced bird- or fish-bodied god, sometimes entwined with snakes",
+      "symbolism": "主冬、水",
+      "type": "神",
+      "name_en": "Xuanming"
+    },
+    {
+      "name": "刑天",
+      "aliases": [],
+      "source": "山海经·海外西经",
+      "appearance": "无首战神，以乳为目，以脐为口，操干戚",
+      "appearance_en": "a headless warrior god with nipples as eyes and navel as mouth, wielding a shield and axe",
+      "symbolism": "不屈战神",
+      "type": "神",
+      "name_en": "Xingtian"
+    },
+    {
+      "name": "夸父",
+      "aliases": [],
+      "source": "山海经·海外北经",
+      "appearance": "逐日巨人，珥两黄蛇，手持杖",
+      "appearance_en": "a towering giant chasing the sun, with two yellow snakes as earrings and a wooden staff",
+      "symbolism": "逐日、坚韧",
+      "type": "神",
+      "name_en": "Kuafu"
+    },
+    {
+      "name": "蚩尤",
+      "aliases": [],
+      "source": "山海经/龙鱼河图",
+      "appearance": "战神，铜头铁额，牛角，八肱八趾，人身牛蹄",
+      "appearance_en": "a bronze-headed war deity with ox horns, multiple arms and ox hooves, clad in armor; fearsome",
+      "symbolism": "兵主、战神",
+      "type": "神",
+      "name_en": "Chiyou"
+    },
+    {
+      "name": "雷神",
+      "aliases": [
+        "雷师"
+      ],
+      "source": "山海经·海内东经",
+      "appearance": "龙身人头，鼓其腹则雷",
+      "appearance_en": "a thunder god with a serpentine dragon body and a human head, beating his belly like a drum",
+      "symbolism": "司雷",
+      "type": "神",
+      "name_en": "Thunder God"
+    },
+    {
+      "name": "雨师",
+      "aliases": [
+        "屏翳"
+      ],
+      "source": "山海经",
+      "appearance": "司雨之神，状或为人持瓶，或为鸟形",
+      "appearance_en": "the rain master, shown as an old man with a water vessel or a bird-dragon, surrounded by rainfall",
+      "symbolism": "司雨",
+      "type": "神",
+      "name_en": "Rain Master"
+    },
+    {
+      "name": "河伯",
+      "aliases": [
+        "冯夷",
+        "冰夷"
+      ],
+      "source": "山海经/楚辞",
+      "appearance": "黄河水神，人面鱼身或乘龙车",
+      "appearance_en": "the Yellow River god, a human with a fish tail or riding a water beast/dragon chariot",
+      "symbolism": "司河川",
+      "type": "神",
+      "name_en": "Hebo"
+    },
+    {
+      "name": "旱魃",
+      "aliases": [
+        "女魃"
+      ],
+      "source": "山海经·大荒北经",
+      "appearance": "旱神，衣青衣，所居不雨，枯瘦",
+      "appearance_en": "a drought goddess, often a shriveled, heat-radiating figure in green robes; parched",
+      "symbolism": "司旱",
+      "type": "神",
+      "name_en": "Hanba"
+    },
+    {
+      "name": "天马",
+      "aliases": [],
+      "source": "山海经·北山经",
+      "appearance": "状如白犬而黑头，或马形，乘之寿",
+      "appearance_en": "a heavenly horse, white-bodied with a black head, swift as wind (or winged)",
+      "symbolism": "北海神马，祥瑞",
+      "type": "瑞兽",
+      "name_en": "Tianma"
+    },
+    {
+      "name": "陵鱼",
+      "aliases": [
+        "鲮鱼"
+      ],
+      "source": "山海经·海内北经",
+      "appearance": "人面鱼身，手足如人，居海中",
+      "appearance_en": "a mermaid-like being with a human face and fish body, with human-like hands on its body",
+      "symbolism": "人鱼之属",
+      "type": "异兽",
+      "name_en": "Lingyu"
+    },
+    {
+      "name": "九色鹿",
+      "aliases": [
+        "鹿王"
+      ],
+      "source": "敦煌壁画·鹿王本生",
+      "appearance": "身披九色毛、角白如雪、体态优雅的鹿",
+      "appearance_en": "a graceful deer with nine-colored fur and snow-white antlers, serene and elegant",
+      "symbolism": "善良、救赎、佛教本生故事",
+      "type": "瑞兽",
+      "name_en": "Nine-Colored Deer"
+    },
+    {
+      "name": "年兽",
+      "aliases": [
+        "年"
+      ],
+      "source": "中国民间春节传说",
+      "appearance": "头生独角、口如盆、身披鳞甲的猛兽，惧红色、火光与响声",
+      "appearance_en": "a formidable beast with a single horn, a basin-like maw and a scale-covered body, fearful of red, fire and loud noises",
+      "symbolism": "春节驱邪、辞旧迎新",
+      "type": "凶兽",
+      "name_en": "Nian Beast"
+    },
+    {
+      "name": "夕",
+      "aliases": [
+        "夕兽"
+      ],
+      "source": "中国民间除夕传说",
+      "appearance": "形似年兽而更瘦长、独目、长尾的食人恶兽",
+      "appearance_en": "a thinner, longer version of the Nian beast with a single eye and a long tail, a man-eating monster",
+      "symbolism": "除夕驱除之夜",
+      "type": "凶兽",
+      "name_en": "Xi Beast"
+    },
+    {
+      "name": "螭龙",
+      "aliases": [
+        "螭"
+      ],
+      "source": "中国龙文化",
+      "appearance": "无角小龙，盘曲矫健，常作玉器纹饰",
+      "appearance_en": "a small hornless dragon with a coiling, agile body, often seen as a jade ornament motif",
+      "symbolism": "辟邪、治水、护佑",
+      "type": "龙族",
+      "name_en": "Chi Dragon"
+    },
+    {
+      "name": "虬龙",
+      "aliases": [
+        "虬"
+      ],
+      "source": "楚辞·涉江",
+      "appearance": "有角的小龙，蜿蜒盘绕， youthful dragon",
+      "appearance_en": "a young dragon with small horns, sinuous and coiling",
+      "symbolism": "奋起、潜藏待时",
+      "type": "龙族",
+      "name_en": "Qiu Dragon"
+    },
+    {
+      "name": "蟠龙",
+      "aliases": [
+        "蟠"
+      ],
+      "source": "中国龙文化",
+      "appearance": "未升天的盘曲伏龙，身缠云气",
+      "appearance_en": "a coiled dragon resting among clouds, not yet ascended to heaven",
+      "symbolism": "蛰伏、积蓄",
+      "type": "龙族",
+      "name_en": "Pan Dragon"
+    },
+    {
+      "name": "蛟",
+      "aliases": [
+        "蛟龙"
+      ],
+      "source": "山海经/搜神记",
+      "appearance": "似龙而无角、头有红额、能兴洪水的龙属",
+      "appearance_en": "a dragon-like creature without horns, with a red mark on its forehead, capable of raising floods",
+      "symbolism": "水中精怪、化龙之前",
+      "type": "龙族",
+      "name_en": "Jiao (Flood Dragon)"
+    },
+    {
+      "name": "谛听",
+      "aliases": [
+        "善听",
+        "地听"
+      ],
+      "source": "佛教·地藏菩萨坐骑传说",
+      "appearance": "形似白狮、虎头、独角、犬耳、龙身、虎爪的灵兽",
+      "appearance_en": "a white lion-like spirit beast with a tiger head, a single horn, dog ears, a dragon body and tiger claws, receptive to all sounds",
+      "symbolism": "辨忠奸、听善恶",
+      "type": "灵兽",
+      "name_en": "Diting"
+    },
+    {
+      "name": "朝天吼",
+      "aliases": [
+        "犼",
+        "吼"
+      ],
+      "source": "明清华表柱首传说",
+      "appearance": "形如犬而高大、昂首向天嘶吼的镇兽",
+      "appearance_en": "a large dog-like beast with its head raised skyward, roaring; a guardian atop palace pillars",
+      "symbolism": "守望、上传天意下达民情",
+      "type": "镇兽",
+      "name_en": "Chaotianhou (Sky-Howling Beast)"
+    },
+    {
+      "name": "金翅大鹏",
+      "aliases": [
+        "迦楼罗",
+        "大鹏金翅鸟"
+      ],
+      "source": "佛教/西游记",
+      "appearance": "金身巨鸟，展翅蔽日，以龙为食",
+      "appearance_en": "a giant golden bird with wings that block the sun, feeding on dragons; a divine bird of Buddhist lore",
+      "symbolism": "降龙、威猛、解脱",
+      "type": "神鸟",
+      "name_en": "Golden-Winged Great Peng"
+    },
+    {
+      "name": "白象",
+      "aliases": [
+        "普贤白象"
+      ],
+      "source": "佛教·普贤菩萨坐骑",
+      "appearance": "六牙白象，温润庄严",
+      "appearance_en": "a majestic white elephant with six tusks, gentle and dignified",
+      "symbolism": "慈悲、智慧、普贤愿行",
+      "type": "灵兽",
+      "name_en": "White Elephant"
+    },
+    {
+      "name": "青狮",
+      "aliases": [
+        "文殊青狮"
+      ],
+      "source": "佛教·文殊菩萨坐骑",
+      "appearance": "青毛雄狮，鬃发威猛",
+      "appearance_en": "a mighty green-maned lion, fierce and regal",
+      "symbolism": "智慧、无畏",
+      "type": "灵兽",
+      "name_en": "Azure Lion"
+    },
+    {
+      "name": "哮天犬",
+      "aliases": [
+        "细犬"
+      ],
+      "source": "封神演义/西游记",
+      "appearance": "二郎神座下细腰猎犬，善奔袭",
+      "appearance_en": "a slim-bodied hunting hound belonging to Erlang, swift and loyal",
+      "symbolism": "忠诚、追踪",
+      "type": "神犬",
+      "name_en": "Howling Sky Hound"
+    },
+    {
+      "name": "孰湖",
+      "aliases": [],
+      "source": "山海经·西山经",
+      "appearance": "马身鸟翼、人面蛇尾的异兽",
+      "appearance_en": "a beast with a horse body, bird wings, a human face and a snake tail",
+      "symbolism": "奇异、山泽之精",
+      "type": "异兽",
+      "name_en": "Shuhu"
+    },
+    {
+      "name": "兕",
+      "aliases": [
+        "青兕"
+      ],
+      "source": "山海经·南山经",
+      "appearance": "形似水牛、通体青黑、独角如玉的猛兽",
+      "appearance_en": "a water-buffalo-like beast, entirely dark blue-black, with a single jade-like horn; fierce",
+      "symbolism": "力量、稀有",
+      "type": "瑞兽",
+      "name_en": "Si (Azure Ox-Beast)"
+    },
+    {
+      "name": "钦原",
+      "aliases": [],
+      "source": "山海经·西山经",
+      "appearance": "似蜂、大小如鸳鸯、剧毒的鸟",
+      "appearance_en": "a bird resembling a giant bee, the size of a mandarin duck, extremely venomous",
+      "symbolism": "剧毒、山林警示",
+      "type": "毒禽",
+      "name_en": "Qinyuan"
+    },
+    {
+      "name": "鹑鸟",
+      "aliases": [],
+      "source": "山海经·西山经",
+      "appearance": "凤属神鸟，赤羽、头有冠",
+      "appearance_en": "a phoenix-kind sacred bird with red plumage and a crested head",
+      "symbolism": "祥瑞、火德",
+      "type": "神鸟",
+      "name_en": "Chunniao"
+    },
+    {
+      "name": "冉遗鱼",
+      "aliases": [],
+      "source": "山海经·西山经",
+      "appearance": "鱼身蛇首、六足、目如马鬃的鱼",
+      "appearance_en": "a fish with a snake head, six legs, and horse-mane-like eyes",
+      "symbolism": "防火、水中祥",
+      "type": "异鱼",
+      "name_en": "Ranyi Fish"
+    },
+    {
+      "name": "何罗鱼",
+      "aliases": [],
+      "source": "山海经·北山经",
+      "appearance": "一首十身、音如吠犬的怪鱼",
+      "appearance_en": "a strange fish with one head and ten bodies, barking like a dog",
+      "symbolism": "抵御瘟疫",
+      "type": "异鱼",
+      "name_en": "Heluo Fish"
+    },
+    {
+      "name": "鯥",
+      "aliases": [
+        "鯥鱼"
+      ],
+      "source": "山海经·南山经",
+      "appearance": "鱼身蛇尾、有翼、冬死夏生的鱼",
+      "appearance_en": "a fish with a snake tail and wings, dying in winter and reviving in summer",
+      "symbolism": "再生、药用",
+      "type": "异鱼",
+      "name_en": "Lu Fish"
+    },
+    {
+      "name": "猾褢",
+      "aliases": [],
+      "source": "山海经·南山经",
+      "appearance": "人面、长臂、浑身猪毛的兽，见则天下大旱",
+      "appearance_en": "a beast with a human face, long arms, and pig-like bristles; its appearance foretells drought",
+      "symbolism": "旱兆",
+      "type": "异兽",
+      "name_en": "Huahuai"
+    },
+    {
+      "name": "獓因",
+      "aliases": [
+        "獓骃"
+      ],
+      "source": "山海经·西山经",
+      "appearance": "形似牛、红身、人脸、马足的凶兽",
+      "appearance_en": "a fierce beast like an ox, red-bodied, with a human face and horse hooves",
+      "symbolism": "凶兆",
+      "type": "凶兽",
+      "name_en": "Aoyin"
+    },
+    {
+      "name": "讙",
+      "aliases": [],
+      "source": "山海经·西山经",
+      "appearance": "形似狸猫、白尾、独目的兽，可御凶",
+      "appearance_en": "a cat-like beast with a white tail and a single eye, able to ward off evil",
+      "symbolism": "御凶、辟邪",
+      "type": "异兽",
+      "name_en": "Huan"
+    },
+    {
+      "name": "太岁",
+      "aliases": [
+        "太岁神",
+        "肉芝"
+      ],
+      "source": "中国民间/本草纲目",
+      "appearance": "土中肉块、无骨无眼、状如活体的精怪",
+      "appearance_en": "a fleshy boneless blob found in the earth, eyeless and pulsing, said to be a living entity",
+      "symbolism": "禁忌、方位神",
+      "type": "精怪",
+      "name_en": "Tai Sui"
+    },
+    {
+      "name": "当扈",
+      "aliases": [],
+      "source": "山海经·西山经",
+      "appearance": "人面、雉身、具一足、食其髯可飞的山鸟",
+      "appearance_en": "a pheasant-like bird with a human face and one leg; eating its neck-feathers is said to grant flight",
+      "symbolism": "飞行、山泽奇禽",
+      "type": "异鸟",
+      "name_en": "Danghu"
+    },
+    {
+      "name": "鳛鳛鱼",
+      "aliases": [
+        "喜喜鱼"
+      ],
+      "source": "山海经·北山经",
+      "appearance": "状如鹊、十翼、鳞皆在羽端、音如鹊的带翼鱼",
+      "appearance_en": "a fish shaped like a magpie with ten wings, scales at the wing tips, crying like a magpie",
+      "symbolism": "御火、异鱼",
+      "type": "异鱼",
+      "name_en": "Xixi Fish"
+    }
   ]
 }
