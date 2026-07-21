@@ -1,7 +1,7 @@
 ---
 name: qianjin-shanhaijing-pet
 description: "神兽宠物提示词生成器：输入一只神兽名称（山海经/搜神记/淮南子/神异经/庄子/列子等古籍），自动生成 3 个不同风格版本的 3D 立体 AI 绘画提示词（国风数字雕塑 / Q版萌宠手办 / 暗黑史诗模型），每版含英文提示词+简体中文说明+推荐参数。形象完整全身、纯色/透明抠图友好背景。可扩展为桌面养圣兽。"
-version: "1.0"
+version: "1.2"
 author: qianjin
 tags:
   - prompt
@@ -218,16 +218,104 @@ license: MIT
 
 ---
 
-## 七、路线图：桌面养圣兽（远期）
+## 七、桌面养圣兽 · 三形态系统（设计规格）
 
-第一步已交付「3 版提示词生成」。后续演进方向：
+第一步已交付「3 版提示词生成」。本技能的三套风格天然对应一个养成产品的核心设定——**三风格 = 一只圣兽的三种可切换形态**。本节把第二步「桌面养圣兽」的系统设计固化，供后续实现（桌面应用 / 状态机 / 文生图调用）直接复用。
 
-1. **生成即预览**：调用文生图 API，直接把三版渲染出来给用户挑
-2. **养成系统**：选一只作为「本命圣兽」，记到本地状态文件（等级/好感/进化）
-3. **桌面陪伴**：常驻桌面角落的小窗，圣兽随好感变化姿态/动作（参考 萌系情绪公式）
-4. **跨风格进化**：高等级解锁风格变异（如萌系→国风→暗黑形态进化）
+### 7.1 核心概念：三只归一
 
-本技能第一步不实现上述，仅预留 `type` 字段（瑞兽/凶兽/神兽）供后续养成逻辑使用。
+同一只圣兽拥有 **3 种可切换形态**，与三版提示词一一对应。形态切换是「同一只圣兽的三种面貌」，而非进化替代——进化保留三态，只是当前展示哪一态：
+
+| 形态 | 对应风格版 | 场景定位 | 气质锚点 |
+|------|-----------|---------|---------|
+| **幼兽陪伴形态** | Q版萌宠版 | 日常陪伴、养成、卖萌 | 软萌、安全、黏人 |
+| **出行形态** | 国风水墨版 | 探索、出行、展示原典 | 优雅、有根、祥瑞 |
+| **战斗形态** | 暗黑史诗版 | 战斗、防御、威压 | 凶悍、神性、压迫 |
+
+### 7.2 形态转化规则
+
+- **循环转化**：陪伴 ↔ 出行 ↔ 战斗，三者可自由往返切换（非线性进化树）
+- **转化消耗**：每次切换消耗「灵气 / 精力值（energy）」，或进入冷却（避免滥用）
+- **触发方式**
+  - 用户主动指令（如「切战斗形态」）
+  - 场景自动触发（进入战斗事件自动切战斗形态、闲置返回陪伴形态）
+- **解锁条件**（建议阈值，实现时可调）
+  - 陪伴形态：初始即解锁
+  - 出行形态：好感度（affection）≥ 3
+  - 战斗形态：等级（level）≥ 5 或通关「本命试炼」
+
+### 7.3 互动动作表（每形态 5 个，共 15）
+
+每个动作 = 一种动画姿态，需生成对应的 **动作姿态提示词**（见 7.4）。
+
+**幼兽陪伴形态（陪伴 / 卖萌）**
+| # | 动作 | 触发 | 动画描述 | 提示词追加关键词（EN） |
+|---|------|------|---------|----------------------|
+| 1 | 蹭蹭撒娇 | 点击头部 | 抬头蹭屏幕边缘、眯眼 | nuzzling the screen edge, squinting eyes, affectionate |
+| 2 | 进食灵果 | 投喂 | 双手捧发光灵果啃、腮鼓 | holding and nibbling a glowing spirit fruit, puffy cheeks, happy |
+| 3 | 蜷睡 | 静置 / 夜晚 | 团成球打盹、呼吸起伏 | curled up sleeping, gentle breathing, peaceful |
+| 4 | 蹦跳玩耍 | 点击身体 | 追尾巴 / 弹跳、开心 | bouncing and chasing its tail, playful, joyful |
+| 5 | 进化闪光 | 满足条件 | 身体发光、提示可转化 | glowing with evolution light, hinting transformation |
+
+**出行形态（探索 / 展示）**
+| # | 动作 | 触发 | 动画描述 | 提示词追加关键词（EN） |
+|---|------|------|---------|----------------------|
+| 1 | 御云巡游 | 常驻移动 | 踏云漂浮滑行 | riding a cloud, gliding gracefully |
+| 2 | 探灵扫描 | 点击 | 环绕灵气探查四周 | scanning with swirling spiritual aura |
+| 3 | 云梢小憩 | 静置 | 落于云头歇息 | resting on a cloud, serene |
+| 4 | 显形展姿 | 双击 | 国风特效展示原典全貌 | striking a dignified pose, traditional ripple effect |
+| 5 | 引路指津 | 指令 | 尾 / 爪指向目标方向 | pointing toward a direction with tail, guiding |
+
+**战斗形态（战斗 / 威压）**
+| # | 动作 | 触发 | 动画描述 | 提示词追加关键词（EN） |
+|---|------|------|---------|----------------------|
+| 1 | 本命神通 | 点击 | 释放属性技能（焰 / 雷 / 幻） | unleashing its signature elemental power, dynamic |
+| 2 | 结界防御 | 受击 | 展开护盾 | raising a dark barrier shield, defensive |
+| 3 | 蓄力大招 | 长按 | 凝聚终结技辉光 | charging an ultimate move, intense glow |
+| 4 | 威压咆哮 | 出场 | 仰头发威压气场 | roaring with menacing aura, powerful |
+| 5 | 归元收势 | 脱战 | 转回陪伴形态 | reverting form, calming down |
+
+### 7.4 动作姿态提示词生成规则
+
+把「形态基础模板」+「动作关键词」组合，即可生成任意 (形态 × 动作) 的 3D 提示词：
+
+```
+1. 取 7.1 对应形态的【模板】（已含 3D / full body / 纯色背景 等全局约束）
+2. 在尾部追加该动作的 EN 关键词（见 7.3 表），并补 motion 描述：
+   + ", in a dynamic pose, <action EN keywords>"
+3. 保留全局约束不变（3D 立体 / 完整全身 / 抠图友好背景）
+4. 输出：英文提示词（直接喂绘图模型）+ 中文说明（动作演绎）
+```
+
+> 例：九尾狐「幼兽陪伴形态 · 进食灵果」
+> `3D chibi blind-box figure of Nine-Tailed Fox, a fox-like beast with nine lush tails transformed into a cute companion: oversized head, tiny body, huge sparkly eyes, round fluffy shapes, pastel macaron colors, vinyl toy texture, adorable expression, full body, complete character, solid color background or transparent background, isolated subject, easy to cutout, soft lighting, in a dynamic pose, holding and nibbling a glowing spirit fruit, puffy cheeks, happy --ar 1:1 --s 100`
+
+### 7.5 本地状态文件（养成数据）
+
+实现桌面养成时，状态建议存于 `~/.config/shengshou/state.json`：
+
+```json
+{
+  "beast": "九尾狐",
+  "level": 5,
+  "affection": 80,
+  "current_form": "battle",
+  "energy": 60,
+  "unlocked_forms": ["companion", "travel", "battle"]
+}
+```
+
+字段说明：`current_form` 决定桌面常驻展示哪一态；`unlocked_forms` 控制可切换范围；`energy` 控制转化消耗。
+
+### 7.6 实现路线图（远期，仍非本技能功能）
+
+1. **生成即预览**：输入神兽名 → 调文生图 API，渲染三形态 + 动作姿态供挑选
+2. **养成系统**：选本命圣兽，写 `state.json`（等级 / 好感 / 形态 / 精力）
+3. **桌面陪伴**：常驻桌面角落的小窗，按 `current_form` 展示形态、随动作切换姿态
+4. **形态转化**：按 7.2 规则实现 陪伴 ↔ 出行 ↔ 战斗 循环切换
+5. **跨风格进化**：高等级解锁更多动作 / 形态变异
+
+本技能当前（v1.x）仅产出提示词，不实现桌面应用；但 7.1–7.5 已把形态与动作的设计固化，后续实现可直接复用。
 
 ---
 
@@ -237,3 +325,4 @@ license: MIT
 |------|------|------|
 | v1.0 | 2026-07-21 | 初始版本：国风/萌系/暗黑三风格提示词生成 + 神兽名录（山海经为主+诸子古籍） |
 | v1.1 | 2026-07-21 | 细节调整：三版统一为 3D 立体渲染、完整全身（禁局部/裁剪）、纯色/透明抠图友好背景；国风版由 2D 水墨改为 3D 国风数字雕塑 |
+| v1.2 | 2026-07-21 | 第二步设计固化：新增第七节「三形态系统」——Q版萌宠=幼兽陪伴 / 国风水墨=出行 / 暗黑史诗=战斗，定义三态循环转化规则与每形态 5 个互动动作（共 15），及动作姿态提示词生成规则、本地状态文件结构 |
