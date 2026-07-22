@@ -62,7 +62,7 @@ python run.py --beast 白泽            # 指定神兽
 - **三形态**：幼兽陪伴（Q版萌宠）/ 出行（国风水墨）/ 战斗（暗黑史诗），可循环切换（消耗精力）
 - **互动**：左键点击随机触发动作 + 增长好感/精力；右键菜单切形态 / 投喂 / 生成三形态图 / 查看状态
 - **养成**：好感≥30 解锁出行、等级≥5 解锁战斗；状态存 `~/.config/shengshou/state.json`
-- **生图 API**：OpenAI 兼容接口（支持 gpt-image-1 / DALL·E 3），换 `base_url` 可接国内兼容网关；未配 key 用占位图也能完整体验
+- **生图 API**：OpenAI 兼容接口（支持 gpt-image-1 / DALL·E 3），换 `base_url` 可接国内兼容网关；未配 key 用占位图也能完整体验。另支持免 key 平台 Pollinations.ai（`base_url: https://api.pollinations.ai/v1`，`api_key` 留空），零注册即可生图。
 
 详见 `SKILL.md` 第七、八节。
 

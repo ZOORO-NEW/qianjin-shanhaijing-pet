@@ -369,6 +369,8 @@ python run.py --beast 白泽            # 指定神兽
 
 `config.json` 的 `api` 段为 OpenAI 兼容接口，支持 `gpt-image-1`（返回 b64）与 `DALL·E 3`（返回 URL）两种返回格式。替换 `base_url` 即可接国内的兼容网关（如通义/硅基等 OpenAI 兼容端点）。未填 key 时 app 用占位图，仍可完整体验养成与互动。
 
+**免 key 平台（Pollinations.ai）**：把 `base_url` 设为 `https://api.pollinations.ai/v1`、`api_key` 留空（或任意非空值）即可零注册生图；generator 会自动放行空 key、将 model 切到 `flux`、遇 429 限速自动重试。注意 Pollinations 经 Cloudflare，个别网络/地区可能被拦，届时改用下方国内兼容网关或注册免费 key。
+
 > 注意：运行时 API 用的是「纯净格式」提示词（无 `--ar/--v/--s` 等 MJ 参数），由 `forms.py` 生成；与第四节给人工复制进 MJ 的提示词是两套输出，互不冲突。
 
 ## 九、版本记录
@@ -381,3 +383,4 @@ python run.py --beast 白泽            # 指定神兽
 | v1.3 | 2026-07-21 | 第三步落地：新增 desktop/ 模块——可运行的桌面养圣兽应用（透明置顶可拖拽、三形态切换、点击互动、基础养成 state.json），首版支持自动调 OpenAI 兼容生图 API（无 key 用占位图）。beasts.json 给九尾狐补 appearance_en |
 | v1.4 | 2026-07-21 | 神兽名录 68→108：补貔貅/麒麟/獬豸/龙生九子等 40 只常见神兽；并为全部 108 条补齐 name_en 与 appearance_en，确保桌面养圣兽生图提示词精准对应各神兽外貌 |
 | v1.5 | 2026-07-21 | 神兽名录 108→134：补九色鹿/年兽/夕/螭龙/虬龙/蟠龙/蛟/谛听/朝天吼/金翅大鹏/白象/青狮/哮天犬/孰湖/兕/钦原/鹑鸟/冉遗鱼/何罗鱼/鯥/猾褢/獓因/讙/太岁/当扈/鳛鳛鱼 共 26 只（节日文化兽、龙族分支、佛教坐骑与神兽、山海经剩余经典）；全部字段完整、英文名无中文混入 |
+| v1.6 | 2026-07-21 | generator 支持免 key 平台（Pollinations.ai）：base_url 含 pollinations 时放行空 key、model 自动切 flux、429 限速退避重试；文档补免 key 配置说明 |

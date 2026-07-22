@@ -42,6 +42,7 @@ class ShengShouState:
     current_form: str = "companion"
     unlocked_forms: list = field(default_factory=lambda: ["companion"])
     last_seen: float = field(default_factory=time.time)
+    shy_until: float = 0.0            # 害羞情绪截止时间戳（升级/解锁后短暂触发）
 
     # ------------------------------------------------------------------ #
     # 持久化
@@ -99,6 +100,8 @@ class ShengShouState:
             self.level += 1
             leveled = True
         unlocked = self._check_unlock()
+        if leveled or unlocked:
+            self.shy_until = time.time() + 30  # 升级/解锁后短暂害羞
         self.save()
         return {"leveled": leveled, "unlocked": unlocked, "action": action}
 
@@ -120,6 +123,20 @@ class ShengShouState:
         self.current_form = target
         self.save()
         return True, f"已切换至 {target}"
+
+    def current_emotion(self) -> str:
+        """根据好感/精力/互动时长推导当前情绪（纯推导，无需持久化）。"""
+        now = time.time()
+        idle_hours = (now - self.last_seen) / 3600.0
+        if now < self.shy_until:
+            return "害羞"
+        if self.energy < 20:
+            return "困倦"
+        if idle_hours > 6:
+            return "委屈"
+        if self.affection >= 70:
+            return "开心"
+        return "平静"
 
     def summary(self) -> str:
         return (
