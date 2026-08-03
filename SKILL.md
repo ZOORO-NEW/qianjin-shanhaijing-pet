@@ -2,6 +2,8 @@
 name: qianjin-shanhaijing-pet
 description: "神兽宠物提示词生成器：输入一只神兽名称（山海经/搜神记/淮南子/神异经/庄子/列子等古籍），自动生成 3 个不同风格版本的 3D 立体 AI 绘画提示词（国风数字雕塑 / Q版萌宠手办 / 暗黑史诗模型），每版含英文提示词+简体中文说明+推荐参数。形象完整全身、纯色/透明抠图友好背景。可扩展为桌面养圣兽。"
 version: "1.3"
+category: 设计创作
+platforms: [workbuddy, claude-code, cursor, windsurf, codex]
 author: qianjin
 tags:
   - prompt
